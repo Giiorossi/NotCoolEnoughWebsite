@@ -1,0 +1,30 @@
+body {
+	font-family: "Poppins", poppins, serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    padding-left: 15px;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    height: 100vh; 
+	height: 100dvh; 
+    position: relative; 
+}
+
+.landing-text {
+    position: absolute; 
+    bottom: 10px; 
+    left: 0px; 
+    text-align: left;
+}
+
+.landing-text a {
+    font-size: clamp(1.9em, 6vw, 10em); 
+    color: white;
+    text-decoration: none;
+}

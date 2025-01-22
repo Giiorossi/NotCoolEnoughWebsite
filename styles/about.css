@@ -1,0 +1,72 @@
+body {
+    font-family: "Poppins", poppins,  serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 16px;
+    padding-right: 10px;
+    padding-left: 15px;
+	margin: 0;
+    background-color: #000;
+    color: white;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-text {
+    position: absolute; 
+    bottom: 10px; 
+    left: 0px; 
+    text-align: left; 
+}
+
+.landing-text a {
+    font-size: clamp(1.9em, 6vw, 10em); 
+    color: white;
+    text-decoration: none;
+}
+
+/* Section 1 */
+.section-1 {
+    height: 100vh;
+	height: 100dvh; 
+	background: black;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+/* Section 2 */
+.section-2 {
+    display: flex;
+    justify-content: flex-start; /* Align content to the top-left horizontally */
+    align-items: flex-start; /* Align content to the top vertically */
+    flex-direction: column; /* Stack children vertically if needed */
+    background: black;
+    color: white;
+    min-height: auto; /* Adjust dynamically to content */
+	margin-bottom: 1em;
+}
+
+/* About Us Text */
+.aboutus-text {
+    width: 82vw; 
+    text-align: left; 
+    font-size: clamp(1.5em, 3vw, 4em); 
+    line-height: 1.4; 
+}
+
+.aboutus-text-small {
+    width: 82vw;
+    text-align: left;
+    font-size: clamp(1em, 1.5vw, 2em); /* Smaller font size */
+    line-height: 1.4;
+    margin-top: 1.4em; /* Adjust the spacing between the two text blocks */
+}
+
+.artist-name {
+    white-space: nowrap; /* Prevent breaking of artist names */
+}
