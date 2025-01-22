@@ -70,3 +70,9 @@ body {
 .artist-name {
     white-space: nowrap; /* Prevent breaking of artist names */
 }
+
+.footer {
+    background-color: black;  /* Dark background for footer */
+    padding: 10px;
+}
+
